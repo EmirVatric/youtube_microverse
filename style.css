@@ -2,6 +2,11 @@ body {
     width: 100%;
 }
 
+span {
+  color: lightgray;
+  font-size: 13px;
+}
+
 .navbar-container {
     padding-top: 5px;
     display: flex;
@@ -205,4 +210,46 @@ hr {
     height: 1px;
     background-color: lightgray;
     margin-right: 13px;
+}
+
+#account-profile {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.user-avatar {
+  border-radius: 50%;
+  margin-left: 10px;
+  margin: 0px;
+}
+
+#account-info {
+  margin-left: 0px;
+  font-family: Roboto, sans-serif, Arial;
+  flex: 2;
+
+}
+
+#user {
+  flex: 0.3;
+
+}
+
+#subscribe-btn {
+  flex: 1;
+}
+
+
+h2 {
+  font-size: 15px;
+  font-family: Roboto, sans-serif, Arial
+}
+
+
+.published {
+  margin-top: -25px;
 }
