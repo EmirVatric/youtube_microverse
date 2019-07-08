@@ -1,8 +1,17 @@
+body {
+  width: 100%;
+}
+
 .navbar-container {
     padding-top: 5px;
     display: flex;
     height: 50px;
     width: 100%;
+    justify-content: space-between;
+}
+
+.search_and_button {
+  width: 600px;
 }
 
 #menu-icon {
@@ -97,6 +106,50 @@ iframe[Attributes Style] {
 
 iframe {
     padding-left: 100px;
-    padding-top: 50px;
+    padding-top: 30px;
 
 }
+
+.main {
+  flex: 2;
+  z-index: 1;
+}
+
+
+#info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  align-items: center;
+}
+
+#view-count {
+  width: 100px;
+  height: 50px;
+  margin-right: 300px;
+  margin-left: 10px;
+  font-family: Roboto, sans-serif, Arial;
+  color: gray;
+}
+
+#info-box {
+  width: 300px;
+  height: 50px;
+  margin-right: 10px;
+  font-family: Roboto, sans-serif, Arial;
+  color: gray;
+}
+
+.video-container {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  justify-content: space-between;
+  flex-flow: row wrap;
+
+}
+
+ .sidebar {
+   flex: 1;
+ }
