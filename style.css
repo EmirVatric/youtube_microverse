@@ -14,7 +14,9 @@ span {
     height: 50px;
     width: 100%;
     justify-content: space-around;
-
+    top: 0;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
 }
 
 .search_and_button {
@@ -106,15 +108,23 @@ a {
 
 }
 
-iframe {
-    padding-left: 100px;
-    padding-top: 30px;
+.video-container {
+
+    display: flex;
+    padding: 0px;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin-top: 80px;
 
 }
 
+
+
 .main {
     flex: 2;
-    z-index: 1;
+    padding-left: 50px;
+    margin-right: 0;
+
 
 }
 
@@ -144,14 +154,7 @@ iframe {
     color: gray;
 }
 
-.video-container {
-    display: flex;
-    padding: 0px;
-    margin: 0px;
-    justify-content: space-between;
-    flex-flow: row wrap;
 
-}
 
 .sidebar {
     flex: 1;
@@ -165,7 +168,8 @@ iframe {
     flex-direction: row;
     flex-flow: row wrap;
     justify-content: space-around;
-    margin-top: 30px;
+    margin-top: 10px;
+    padding-right: 50px;
 }
 
 .recomended-image {
@@ -202,7 +206,7 @@ hr {
     border: 0;
     height: 1px;
     background-color: lightgray;
-    margin-right: 13px;
+    margin-right: 50px;
 }
 
 #account-profile {
@@ -239,10 +243,57 @@ hr {
 
 h2 {
     font-size: 15px;
-    font-family: Roboto, sans-serif, Arial
+    font-family: Roboto, sans-serif, Arial;
+    margin-bottom: 0;
+}
+
+#info-hr {
+    margin-top: -13px;
 }
 
 
 .published {
     margin-top: -25px;
+}
+
+button {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: red;
+    font-size: 15px;
+    color: white;
+    border: 0px;
+    border-radius: 3px;
+}
+
+.next-container {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+h4 {
+    margin-top: 5px;
+}
+
+.upnext {
+    flex: 1;
+    display: flex;
+    font-family: Roboto, sans-serif, Arial;
+
+}
+
+.autoplay {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    font-family: Roboto, sans-serif, Arial;
+    font-size: 18px;
 }
