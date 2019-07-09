@@ -194,6 +194,7 @@ a {
   font-family: Roboto, sans-serif, Arial;
   font-size: 15px;
   margin-right: 15px;
+  font-weight:500;
 }
 
 #recomended-sub-count {
@@ -372,6 +373,7 @@ button {
   flex: 1.5;
   margin-top: -15px;
   margin-left: -40px;
+  margin-right: 20px;
   font-family: Roboto, sans-serif, Arial;
   font-size: 15px;
   font-weight: 300;
