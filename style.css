@@ -369,6 +369,7 @@ button {
 }
 
 #comment-rest {
+  flex: 1.5;
   margin-top: -15px;
   margin-left: -40px;
   font-family: Roboto, sans-serif, Arial;
