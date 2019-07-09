@@ -253,6 +253,7 @@ hr {
   margin-left: 0px;
   font-family: Roboto, sans-serif, Arial;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   flex: 2;
 
 }
@@ -260,6 +261,13 @@ hr {
 #user {
   flex: 0.3;
 
+=======
+  flex: 2.8;
+}
+
+#user {
+  flex: 0.2;
+>>>>>>> Stashed changes
 =======
   flex: 2.8;
 }
