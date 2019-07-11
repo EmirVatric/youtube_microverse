@@ -52,18 +52,17 @@ h1 {
 
 .search-button {
   display: flex;
-  height: 32px;
-  width: 60px;
+  height: 36px;
   background-color: lightgrey;
   border: 2px solid lightgrey;
-  margin-left: -5px;
+  margin-left: -2px;
   align-items: center;
   justify-content: center;
 }
 
 #search-button {
   height: 18px;
-
+  margin-top: -4px;
   width: 18px;
   border: none;
 }
